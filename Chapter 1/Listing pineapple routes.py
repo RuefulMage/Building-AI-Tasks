@@ -8,7 +8,7 @@ def permutations(route, ports):
         for i in ports:
             new_port_list = ports.copy()
             new_route_list = route.copy()
-            new_route_list.append(i)
+            new_route_list.append(i)                                                                                                                                                                                                                                                                                                                                                                                                                            
             new_port_list.remove(i)
             permutations(new_route_list, new_port_list)
 
